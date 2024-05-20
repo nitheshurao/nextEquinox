@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bar {
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 25px 0;
+  color: white;
+}
+
+.bar_content {
+  display: block; /* Important to give the content a width */
+
+  width: 100%;
+  transform: translateX(100%); /* Animation start out of the screen */
+
+  /* Add the animation */
+  animation: move 13s linear infinite /* infinite make reapeat the animation indefinitely */;
+}
+/* ................................................................... */
+
+/* Create the animation */
+@keyframes move {
+  /* to { transform: translateX(-100%); } */
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-50%, 0);
+  }
+}
