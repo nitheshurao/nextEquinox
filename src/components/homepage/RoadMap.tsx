@@ -29,7 +29,7 @@ function RoadMap() {
   return (
     <Box display={'flex'} justifyContent={'center'} m={'30px auto'} width={'60%'}>
       {' '}
-      <Card sx={{ border: '10px solid #818BF4', borderRadius: '3px', width: 'auto' }}>
+      <Card sx={{ border: '10px solid #818BF4', borderRadius: '24px', width: 'auto' }}>
         <Grid container spacing={'2'} sx={{ margin: 'auto' }}>
           <Grid xs={6} sx={{ padding: '10px' }} display={'flex'} justifyContent={'center'}>
             <Card sx={{ backgroundColor: '#9bb5d6', width: '100%' }}>

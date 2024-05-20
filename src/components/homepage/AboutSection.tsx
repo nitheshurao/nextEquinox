@@ -12,7 +12,7 @@ const AboutSection: React.FC = () => {
         justifyContent="start"
         alignItems="start"
         columnGap={5}
-        width={'60%'}
+        width={'80%'}
         margin={'50px auto'}
       >
         <Grid container>

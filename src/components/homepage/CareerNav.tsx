@@ -20,15 +20,19 @@ function CareerNav() {
   return (
     <Box display={'flex'} justifyContent={'center'}>
       {' '}
-      <Box sx={{ border: '5px solid #818BF4', borderRadius: '3px' }}>
-        <Grid container>
+      <Box sx={{ border: '5px solid #818BF4', borderRadius: '24px', width: '70%' }}>
+        <Grid container display={'flex'} justifyContent={'space-between'}>
           <Box>
-            <img style={{ margin: '-80px auto' }} src="assets/images/CN1.svg" alt="Paella dish" />
+            <img style={{ margin: '-80px 50px' }} src="assets/images/CN1.svg" alt="Paella dish" />
           </Box>
-          <Grid xs={5} sx={{ margin: 'auto 10px', width: '800px' }}>
+          <Grid xs={7} sx={{ margin: 'auto 10px', width: '80%' }}>
             <CardContent>
-              <Typography sx={{ margin: '10px' }}>Career Navigator</Typography>{' '}
-              <Typography sx={{ margin: '10px' }}>Career Navigator</Typography>
+              <Typography sx={{ margin: '10px', fontSize: '42px', fontWeight: '600', color: '#FF56C7' }}>
+                Career Navigator
+              </Typography>{' '}
+              <Typography sx={{ margin: '10px' }}>
+                Define Your Ambition, Design Your Path: Navigate to Your Dream Career with Precision.
+              </Typography>
               <Box display={'flex'} sx={{ width: '600px' }} m={'10px'}>
                 <Card sx={{ width: '300px', padding: '10px' }}>
                   <Typography>Full Stack Developer</Typography>
