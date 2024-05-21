@@ -72,7 +72,7 @@ function TechnicalCourses(props: any) {
           <Grid container display={'flex'} justifyContent={'center'}>
             {data.map((v: any) => {
               return (
-                <Grid xs={2.5} sx={{ margin: '10px' }}>
+                <Grid xs={props.grdsize} sx={{ margin: '10px' }}>
                   <Mycard title={v.title} subtitle={v.Subtitles} bgcolot={v.bgcolot} boardR={props.boardR} />
                 </Grid>
               );

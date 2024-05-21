@@ -59,14 +59,27 @@ const HomePageContainer: React.FC = () => {
       <RoadMap />
       <OurStatistics />
       <Codinground />
-      <TechnicalCourses data={Techdata} Header={'Technical Courses'} img={'/assets/images/R2.svg'} boardR="0px" />
+      <TechnicalCourses
+        data={Techdata}
+        Header={'Technical Courses'}
+        img={'/assets/images/R2.svg'}
+        boardR="0px"
+        grdsize={2.3}
+      />
       <TechnicalCourses
         data={NonTechdata}
         Header={'Non-Technical Courses'}
         img={'/assets/images/R2.svg'}
         boardR="40px"
+        grdsize={3}
       />
-      <TechnicalCourses data={Vocationadata} Header={'vocational courses'} img={'/assets/images/R2.svg'} boardR="0px" />
+      <TechnicalCourses
+        data={Vocationadata}
+        Header={'vocational courses'}
+        img={'/assets/images/R2.svg'}
+        boardR="0px"
+        grdsize={3}
+      />
       <Whatyouwillget data={getData} />
     </Box>
   );
